@@ -1,7 +1,7 @@
 package main
 
 import (
-	"ci-bot/ci_cd-server/cmd/iternal/httpapi"
+	"ci-bot/cmd/internal/httpapi"
 	"context"
 	"log/slog"
 	"net/http"
