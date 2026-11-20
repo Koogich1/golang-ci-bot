@@ -13,7 +13,7 @@ import (
 
 func main() {
 	if err := run(); err != nil {
-		slog.Error("dispatcher stopped", "err", err)
+		slog.Error("server stopped", "err", err)
 		os.Exit(1)
 	}
 }

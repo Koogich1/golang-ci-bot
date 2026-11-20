@@ -1,0 +1,39 @@
+# Собранные бинарники
+/server
+/bin/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Тестовые бинарники и покрытие
+*.test
+*.out
+coverage.*
+*.coverprofile
+
+# Профили
+*.prof
+*.pprof
+
+# Локальные зависимости и workspace
+/vendor/
+go.work
+go.work.sum
+
+# Секреты и локальные настройки
+.env
+.env.*
+!.env.example
+
+# Логи и временные файлы
+*.log
+tmp/
+
+# Редакторы и ОС
+.idea/
+.vscode/
+*.swp
+.DS_Store
